@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{84EC26D6-215D-4BAB-8C55-54FAD506A143}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseAccounting.Core", "src\WarehouseAccounting.Core\WarehouseAccounting.Core.csproj", "{192CBE48-9A8B-4AF3-8390-DF247793B0AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WarehouseAccounting.App", "src\WarehouseAccounting.App\WarehouseAccounting.App.csproj", "{F249EEEE-0EB4-49D1-86C9-B6631AD7B5E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{192CBE48-9A8B-4AF3-8390-DF247793B0AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192CBE48-9A8B-4AF3-8390-DF247793B0AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192CBE48-9A8B-4AF3-8390-DF247793B0AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192CBE48-9A8B-4AF3-8390-DF247793B0AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F249EEEE-0EB4-49D1-86C9-B6631AD7B5E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F249EEEE-0EB4-49D1-86C9-B6631AD7B5E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F249EEEE-0EB4-49D1-86C9-B6631AD7B5E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F249EEEE-0EB4-49D1-86C9-B6631AD7B5E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{192CBE48-9A8B-4AF3-8390-DF247793B0AB} = {84EC26D6-215D-4BAB-8C55-54FAD506A143}
+		{F249EEEE-0EB4-49D1-86C9-B6631AD7B5E0} = {84EC26D6-215D-4BAB-8C55-54FAD506A143}
+	EndGlobalSection
+EndGlobal
